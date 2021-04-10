@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    justify-content: center;
+    text-align: center;
+    background-image: url("fundoPadrao.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main{
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 3%;
+    padding: 50px;
+    padding-bottom: 200px;
+    background:linear-gradient(to bottom, #ff5e0086 5%, #ffd900b7 100%)
+    
+}
+
+#titulo{ 
+    margin: 5px;
+    
+}
+#conteudo_1{
+    
+    margin: 5px;
+    width: 1000px;
+    height: 500px;
+    margin-left: 20%;
+    background-image: url("primavera_02jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 100px;
+    
+}
+/*
+.botaoInicio{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: #fbff00;
+    margin-top: 60px;
+    
+}
+*/
+h1{
+    margin: 10px 0 5% 0;
+    color: #59429d;
+}
+p{
+    line-height: 30px;
+    color: black;
+}
+.botaoInicio:hover{
+    background:linear-gradient(to bottom, #ffd000 5%, #ff7402da 100%);
+}
+ul{
+    list-style: none;
+}
+nav{
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 150px;
+    height: 500px;
+    margin-bottom: 50px;
+    float: left;
+    margin-top: 3%;
+    background-color: rgba(128, 128, 128, 0.459);
+}
+.botaoNav{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 60px;
+
+}
+#botaoNav01{
+    background-color: #d8bfd8;
+}
+
+#botaoNav02{
+    background-color: #90EE90;
+}
+
+#botaoNav03{
+    background-color: #FFA500;
+}
+
+#botaoNav04{
+    background-color: #ADD8E6;
+}
+
+#botaoNav01:hover,#botaoNav02:hover,#botaoNav03:hover,#botaoNav04:hover{
+
+    background:linear-gradient(to bottom, #5a5a5a 5%, #e2e1e1da 100%);
+
+}
